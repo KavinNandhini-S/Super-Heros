@@ -15,16 +15,6 @@ class heroSearch extends React.Component {
     };
   }
 
-  // async componentDidMount(){
-
-  //   await axios
-  //   .get(`https://www.superheroapi.com/api.php/113711614148392/search/`)
-  //   .then((response) => {
-  //     if(response.data.response == "success"){
-
-  //     }
-  //   });
-  //}
   handleChange = (e) => {
     this.setState({ [e.target.name]: e.target.value });
     if (e.target.value.length > 2) {
