@@ -1,0 +1,46 @@
+input[type="text"] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline-style: none;
+  width: 97%;
+  margin-left: 5%;
+}
+
+input[type="text"]:focus {
+  margin-left: 5%;
+  border-bottom: 2px solid #9c27b0;
+}
+
+.search-btn {
+  background-color: #9c27b0;
+  color: white;
+  border: none;
+  padding: 6% 10%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10%;
+  position: relative;
+  bottom:28%
+}
+
+/* expand card on hover */
+.heroCard:hover{
+  transform: translate3D(0,-1px,0) scale(1.05);
+  cursor: pointer;
+  box-shadow: 8px 28px 50px rgba(230, 79, 197, 0.07), 1px 6px 12px rgba(245, 66, 221, 0.04);
+  transition: all .4s ease;
+}
+
+
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: #9c27b0;
+}
